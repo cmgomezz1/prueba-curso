@@ -9,19 +9,19 @@ app.get('/hola', (req, res) => {
 });
 
 app.get('/adios', (req, res) => {
-    //res.send('Ruta Adios');
+    
     res.json({
         message: 'No es una despedida, nos vemos luego'});
 });
 
 app.post('/registro', (req, res) => {
-    //res.send('Recibiendo información de Registro');
+    
     res.json({
         message: 'Recibiendo información de registro'});
 });
 
 app.post('/login', (req, res) => {
-    //res.send('Ruta de Login nueva');
+    
     res.json({
         message: 'Ruta nueva de Login'});
 });
