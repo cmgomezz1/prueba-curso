@@ -26,6 +26,12 @@ app.post('/login', (req, res) => {
         message: 'Ruta nueva de Login'});
 });
 
+app.post('/Hola Amy', (req, res) => {
+    //res.send('Ruta de Login nueva');
+    res.json({
+        message: 'Hola Amynhe. ¿Cómo estás?'});
+});
+
 app.listen(3000, () => {
     console.log('example app listening on port 3000!');
 });
